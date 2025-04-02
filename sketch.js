@@ -21,8 +21,8 @@ function draw() {
   // circle(150, 150, 30); // pupila esquerda
   // circle(250, 150, 30); // pupila direita
 
-olhoX = map(mouseX, 0, 400, 130, 170);
-olhoY = map(mouseY, 0, 400, 130, 170);
+olhoX = map(mouseX, 0, 400, 130, 155);
+olhoY = map(mouseY, 0, 400, 130, 160);
 
 circle(olhoX, olhoY, 18); // nova pupila esquerda
 circle(olhoX + 100, olhoY, 18); //nova pupila direita
